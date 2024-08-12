@@ -1,4 +1,49 @@
-header {
-    background-color: rgb(213, 11, 11);
+main{
+    display: flex;
 }
 
+header { 
+    font-size: 10px;
+    padding: 1px;
+}
+
+aside{
+    padding: 42px;
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 1em;
+    margin-block: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: aliceblue;
+}
+
+form{
+    padding: 8px;
+    margin-block: 5px;
+    background-color: lightgrey;
+    border-radius: 2px;
+}
+
+p{
+    text-align: justify;
+}
+
+.calc{
+    height: 32px;
+    border-radius: 5px;
+    background-color: lightgreen;
+}
+
+.rest{
+    height: 24px;
+    border-radius: 5px;
+    background-color: rgb(238, 156, 144);
+}
